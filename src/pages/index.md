@@ -1,30 +1,20 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Dhaval 'Danny' 'Dan' 'The Great' Patel's Personal Site!
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: It's like shovel, with a 'the'
+subheading: A winning smile and a silver tongue will get you far. Guess I'm halfway there
 mainpitch:
-  title: Why Kaldi
+  title: Why Dhaval
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    The real question is--why not? Some people love him, and those people would be correct! Some people hate him and you should pray for those misguided souls :(.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Anything from comedic relief to software services, Dhaval has you covered! And he's super witty! You could try to cap at him--many have tried, many have failed. 
 intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        The rest of this website is boilerplate and will be removed shortly!
     - image: /img/coffee-gear.png
       text: >
         We offer a small, but carefully curated selection of brewing gear and
