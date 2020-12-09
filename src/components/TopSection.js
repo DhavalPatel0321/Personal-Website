@@ -9,7 +9,7 @@ function TopSection() {
       <h3>Software Engineer and Aspiring Surfer Boy</h3>
       <button type='button'> Let's grab some coffee! (Virtually)</button>
     </div>
-    <img src="../img/dhaval-top-pic.png"/>
+   <img src="../img/dhaval-top-pic.png"/>
     </div>
   )
 }

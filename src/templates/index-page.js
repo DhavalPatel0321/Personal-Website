@@ -6,6 +6,9 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import TopSection from '../components/TopSection'
+import AboutSection from '../components/AboutSection'
+import ProjectSection from '../components/ProjectSection'
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -17,6 +20,8 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <TopSection/>
+    <AboutSection/>
+    <ProjectSection/>
   </div>
 )
 
