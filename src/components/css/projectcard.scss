@@ -3,14 +3,32 @@
   height: 200px;
   background: gray;
   display: block;
-  margin: auto;
+  margin:auto;
   margin-bottom: 10px;
 
   .canvas{
     position: relative;
+    height:200px;
+    width: 100%;
+
     h2{
+      position:absolute;
+      bottom:0px;
+      left:0px;
+      color: #FEFEFE;
+    }
+
+    button{
+      color:#FEFEFE;
+      opacity: 1.0;
       position: absolute;
+      right:0px;
+      bottom:10px
     }
   }
 }
+
+
+
+
 
