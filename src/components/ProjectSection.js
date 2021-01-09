@@ -1,7 +1,7 @@
 import React from 'React';
 import ProjectCard from './ProjectCard';
 import {useStaticQuery, graphql} from 'gatsby';
-import './css/projectsection.scss';
+import './css/projectSection.scss';
 
 function ProjectSection(){
   const data = useStaticQuery(graphql`
@@ -15,19 +15,19 @@ function ProjectSection(){
     }
   }
   `);
-  
+
   return (
-    <>
-    <div>
-    <h1>{data.site.siteMetadata.headers.projectHeader}</h1>
-    </div>
     <div className='project-section'>
+    <>
+    <h1>{data.site.siteMetadata.headers.projectHeader}</h1>
+    </>
+    <div className='project-cards'>
     <ProjectCard projectName='Tallcats'/>
     <ProjectCard projectName='Charger-To-Go'/>
     <ProjectCard projectName= 'MyZenLifestyle'/>
     <ProjectCard projectName= 'Raves-R-Us'/>
     </div>
-    </>
+    </div>
   )
 };
 

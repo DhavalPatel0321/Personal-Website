@@ -1,7 +1,10 @@
 import React from 'React';
 import { useStaticQuery, graphql } from 'gatsby'
+import Img from "gatsby-image";
+import './css/aboutSection.scss';
 
-const aboutInfo ='insert bullshit here';
+
+const aboutInfo ='I\'m a CS graduate from the University of Virginia. I\'m currently based out of South Carolina but I will be moving to San Francisco soon!';
 function AboutSection(){
 
   const data = useStaticQuery(graphql`
@@ -15,7 +18,8 @@ function AboutSection(){
     }
   }
   `);
-  
+  console.log(data);
+
   return (
     <div className='about-section'>
     <h1>{data.site.siteMetadata.headers.aboutMeHeader}</h1>
