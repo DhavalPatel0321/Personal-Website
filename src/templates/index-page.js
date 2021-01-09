@@ -8,6 +8,7 @@ import BlogRoll from '../components/BlogRoll'
 import TopSection from '../components/TopSection'
 import AboutSection from '../components/AboutSection'
 import ProjectSection from '../components/ProjectSection'
+
 import '../components/css/websiteMain.scss'
 
 export const IndexPageTemplate = ({
