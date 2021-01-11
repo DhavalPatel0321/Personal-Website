@@ -4,7 +4,6 @@
   display: block;
   margin:auto;
   margin-bottom: 10px;
-  background-image: url('https://placekitten.com/600/200');
 
   .canvas{
     position: relative;
@@ -30,6 +29,9 @@
       border: 1px solid #FEFEFE;
       padding:0.5rem;
       cursor: pointer;
+    }
+    p{
+      position:relative;
     }
 
   }

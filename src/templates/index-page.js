@@ -9,7 +9,6 @@ import TopSection from '../components/TopSection'
 import AboutSection from '../components/AboutSection'
 import ProjectSection from '../components/ProjectSection'
 
-import '../components/css/websiteMain.scss'
 
 export const IndexPageTemplate = ({
   image,
@@ -22,10 +21,8 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <TopSection/>
-    <div className='website-main'>
     <AboutSection/>
     <ProjectSection/>
-    </div>
   </div>
 )
 
