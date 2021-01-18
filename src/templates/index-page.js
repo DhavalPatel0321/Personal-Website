@@ -9,7 +9,6 @@ import TopSection from '../components/TopSection'
 import AboutSection from '../components/AboutSection'
 import ProjectSection from '../components/ProjectSection'
 
-
 export const IndexPageTemplate = ({
   image,
   title,

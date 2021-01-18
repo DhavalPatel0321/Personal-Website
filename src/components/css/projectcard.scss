@@ -30,8 +30,11 @@
       padding:0.5rem;
       cursor: pointer;
     }
+    h1{
+      position: absolute;
+    }
     p{
-      position:relative;
+        text-align: center;
     }
 
   }

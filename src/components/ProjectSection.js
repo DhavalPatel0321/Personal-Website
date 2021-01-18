@@ -28,8 +28,10 @@ function ProjectSection(){
     slidesToScroll: 1,
     arrows:true,
   };
-
-
+  const tallcatsText = 'Tallcats text here';
+  const chargerToGoText = 'Charger to go text here';
+  const myZenLifestyleText = 'mzl text here';
+  const rruText = 'rru text here';
   return (
     <div className='project-section'>
     <>
@@ -37,10 +39,10 @@ function ProjectSection(){
     </>
     <div className='project-cards'>
     <Slider {...settings}>
-      <ProjectCard projectName='Tallcats' imgSrc='https://placekitten.com/600/200'/>
-      <ProjectCard projectName='Charger-To-Go' imgSrc='https://placekitten.com/600/200'/>
-      <ProjectCard projectName= 'MyZenLifestyle' imgSrc='https://placekitten.com/600/200'/>
-      <ProjectCard projectName= 'Raves-R-Us' imgSrc='https://placekitten.com/600/200'/>
+      <ProjectCard projectName='Tallcats' imgSrc='https://placekitten.com/600/200' infoText={tallcatsText}/>
+      <ProjectCard projectName='Charger-To-Go' imgSrc='https://placekitten.com/600/200' infoText={chargerToGoText}/>
+      <ProjectCard projectName= 'MyZenLifestyle' imgSrc='https://placekitten.com/600/200' infoText={myZenLifestyleText}/>
+      <ProjectCard projectName= 'Raves-R-Us' imgSrc='https://placekitten.com/600/200' infoText={rruText}/>
     </Slider>
     </div>
     </div>
